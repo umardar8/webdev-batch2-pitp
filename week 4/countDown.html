@@ -49,7 +49,7 @@
         
         const timerDisplay = document.getElementById('timer');
         const startButton = document.getElementById('startBtn');
-        const result = document.getElementById('#result');
+        const result = document.getElementById('result');
 
         startButton.addEventListener('click', () => { 
 
@@ -62,6 +62,7 @@
                 if (seconds <= 0) {
                     clearInterval(timerId);
                     timerDisplay.textContent = "Time's Up!";
+                    result.textContent = marks[1]
                     timerId = null;
                 }
             }, 1000);
