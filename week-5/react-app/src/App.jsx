@@ -6,7 +6,7 @@ const App = () => {
   
   return (
     <div>
-      <Navbar title='React App' />
+      <Navbar title='Text Tools' />
       <TextForm />
     </div>
   )
