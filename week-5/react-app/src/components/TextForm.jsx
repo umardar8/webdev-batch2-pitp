@@ -29,7 +29,6 @@ const TextForm = () => {
         <p>Time required to read: {(text.split(" ").length * 0.3).toFixed(0) } sec </p>
       </div>
 
-
     </div>
   )
 }
